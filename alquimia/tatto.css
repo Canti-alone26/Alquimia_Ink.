@@ -1,0 +1,77 @@
+body {
+      font-family: Arial, sans-serif;
+      background-color: #181616;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .contenedor {
+      display: flex;
+      flex-wrap: wrap; /* Permite que bajen a otra línea */
+      justify-content: center;
+      gap: 20px; /* Espacio entre los divs */
+    }
+
+    .tat {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      width: 30%; /* 3 por línea */
+      min-width: 250px; /* Evita que se hagan muy pequeños */
+      text-align: center;
+      padding: 15px;
+      box-sizing: border-box;
+    }
+
+    .tat img {
+      width: 100%;
+      height: auto; /* Mantiene la proporción */
+      border-radius: 10px;
+    }
+
+    .tat h3 {
+      margin-top: 10px;
+      color: #222;
+    }
+
+    .tat p {
+      color: #555;
+      font-size: 14px;
+    }
+
+    @media (max-width: 800px) {
+      .tat {
+        width: 45%; /* 2 por línea en pantallas medianas */
+      }
+    }
+
+    @media (max-width: 500px) {
+      .tat {
+        width: 100%; /* 1 por línea en pantallas pequeñas */
+      }
+    }
+
+    .lin{
+          text-decoration:none;
+          font-family: Arial, Helvetica, sans-serif;
+          color: #dddcdc;
+          font-size:x-large;
+        }
+
+    .btn1{
+            padding: 20px 60px;
+            border: none;
+            background-color: #181616;
+            box-shadow: #dddcdc;
+            margin-top: 25px;
+            margin-left: 115px;
+            cursor: pointer;
+            border-radius: 10px;
+    }
+    
+    .btn1:hover{
+            background-color: #54656b;
+            box-shadow:0 10px 20px #cab3b3 ;
+        }
+
+    
